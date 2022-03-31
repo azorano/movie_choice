@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- Movie Choice Algorythm/Iteration based on file name -->
+<html>
+  <head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="robots" content="noindex" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Movie Choice Algorythm/Iteration based on file name</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="bootstrap.min.css?v=4.5.0" />
+    <link rel="stylesheet" href="mdb.min.css?v=4.19.2" />
+    <link rel="stylesheet" href="style.css?v=1.0" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="col-12">
+            <div class="row py-3 text-center bg-dark text-white d-flex justify-content-center">
+              <h1 id="year"></h1>
+            </div>
+            <div class="bg-info text-black-50 d-flex flex-wrap justify-content-start align-middle" style="height: auto">
+              <div class="col-auto ml-2 text-center d-flex align-items-center small" id="total"></div>
+            </div>
+          </div>
+          <div id="targetLanguage"></div>
+          <div class="col-12">
+            <div class="p-2 p-sm-1 p-md-4 p-lg-5 p-xl-5 bg-light d-flex justify-content-center justify-content-sm-center justify-content-md-between justify-content-lg-around justify-content-xl-between flex-wrap" id="html_output"></div>
+          </div>
+          <div class="bottom small text-center w-100 my-2 text-white" style="height: auto; line-height: 1">
+            <sup>forged together with <a href="//omdbapi.com" title="OMDb API" target="_blank">OMDb API</a></sup>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fixed-bottom text-center mb-4 mr-2 bg-dark text-white azorano"><sup style="line-height: 1">azorano</sup></div>
+    <script src="jquery.min.js?v=3.5.1"></script>
+    <script src="popper.min.js?v=2019"></script>
+    <script src="bootstrap.min.js?v=4.5.0"></script>
+    <script src="mdb.min.js?v=4.19.2"></script>
+    <script src="movies.js?v=1.0"></script>
+    <script>
+      $("body").tooltip({ selector: '[data-toggle="tooltip"]' });
+    </script>
+  </body>
+</html>
